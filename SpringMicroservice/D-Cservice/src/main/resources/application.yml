@@ -1,0 +1,22 @@
+server:
+  port: 5050
+
+
+spring:
+  application:
+    name: DealsAndCoupons-SERVICE
+  data:
+    mongodb:
+      host: localhost
+      database: D&C
+  main:
+    allow-bean-definition-overriding: true
+
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    hostname: localhost
